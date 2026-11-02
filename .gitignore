@@ -1,0 +1,64 @@
+﻿# MATLAB and Simulink generated files
+/slprj/
+**/slprj/
+*.slxc
+*.asv
+*.autosave
+
+# Exclude MAT files by default
+*.mat
+
+# Required root-level project data
+!/scenarioConfig_customization_physical_80s.mat
+!/offRoadResults.mat
+
+# Keep only the three selected root-level Simulink models
+*.slx
+!OffRoadMultibodyStage1_TireDamping_Cz20_20261101.slx
+!OffRoadMultibodyStage1_Demo_20261101.slx
+!OffRoadMultibodyStage1_OnlineReplanCheckpoint.slx
+
+# Temporary staging copies; root files remain authoritative
+/Simulink_Models/
+/Robot_Geometry/
+/Scenario_Configuration/
+/Results/Performance_Metrics/
+
+# Local archives and backups
+/Archive/
+/backups/
+*.zip
+
+# MATLAB workspace dump
+/matlab.mat
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local project audit and inspection exports
+/AutonomousNavigationRoughTerrain_Inventory.txt
+/RoughTerrain_Core_Scripts.txt
+/customFailureSimscapeLogTree*.txt
+/obstacle3UpperLimitForceProbeSimscapeTree*.txt
+
+# Duplicate editor and temporary test
+/launchElevationTerrainRoverViewer (1).m
+/test.m
+
+# Generated diagnostic CSV outputs
+/steering*.csv
+/obstacle3UpperLimitForceValues*.csv
+/tireSignalSummary*.csv
+/tireSignalTail*.csv
+
+# Use organized copies of final route-history figures
+/Successful_Run5_Route_History.fig
+/Successful_Run5_Route_History.png
+
+# Outdated or superseded documentation exports
+/README.txt
+/documentation/technical_notes/PROJECT_INVENTORY.txt
+/documentation/previous_results/*.avi
+/documentation/previous_results/*.mp4
